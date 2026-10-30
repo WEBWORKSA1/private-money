@@ -103,12 +103,23 @@
   });
 
   /* ---------- forms ---------- */
+  function readable(form, k, v) {
+    var el = form.querySelector('[name="' + k + '"]');
+    if (el && el.tagName === 'SELECT') { var opt = $$('option', el).filter(function (x) { return x.value === v; })[0]; return opt ? opt.textContent : v; }
+    var box = form.querySelector('.choice input[name="' + k + '"][value="' + v + '"]');
+    if (box && box.type === 'radio' && /^[0-9]+$/.test(v)) { var sp = box.parentNode.querySelector('span'); return sp ? sp.textContent.trim() : v; }
+    return v;
+  }
   function collect(form) {
     var o = {};
     new FormData(form).forEach(function (v, k) {
       if (k === '_honey' || v === '') return;
+      v = readable(form, k, v);
       o[k] = o[k] ? o[k] + ', ' + v : v;
     });
+    if (form.hasAttribute('data-estimator')) {
+      $$('[data-est]').forEach(function (n) { if (n.textContent !== '—') o['estimate_' + n.getAttribute('data-est')] = n.textContent; });
+    }
     return o;
   }
   function mailBody(data) { return Object.keys(data).map(function (k) { return k + ': ' + data[k]; }).join('\n'); }
