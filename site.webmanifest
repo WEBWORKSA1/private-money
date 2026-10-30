@@ -1,0 +1,10 @@
+{
+  "name": "Private.Money",
+  "short_name": "Private.Money",
+  "description": "Independent private & hard money lending hub: calculators, guides and lender matching.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0b1220",
+  "theme_color": "#0b1220",
+  "icons": [{ "src": "assets/img/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}
