@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Free Hard Money, Fix & Flip, DSCR, BRRRR & Note Yield Calculators | Private.Money</title>
+<meta name="description" content="Six free real estate finance calculators: fix & flip profit, hard money loan cost, DSCR ratio and max loan, BRRRR cash left in deal, 70% rule max offer, and private note net yield.">
+<link rel="canonical" href="https://private.money/calculators.html">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Private.Money"><meta property="og:title" content="Free private lending calculators"><meta property="og:description" content="Fix & flip, hard money cost, DSCR, BRRRR, max offer and note yield."><meta property="og:url" content="https://private.money/calculators.html"><meta name="twitter:card" content="summary">
+<meta name="google-adsense-account" content="ca-pub-6620975821265271">
+<meta name="theme-color" content="#0b1220">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml"><link rel="manifest" href="site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@700;800&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6620975821265271" crossorigin="anonymous"></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Private.Money Real Estate Finance Calculators","url":"https://private.money/calculators.html","applicationCategory":"FinanceApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script>
+</head>
+<body data-page="calc">
+<div class="topbar"><a href="https://web.works/contact" target="_blank" rel="noopener">Contact, if you are interested in this website / domain name / Sponsorship / Advertisement / Partnership →</a></div>
+<header id="site-header" class="site-header"><nav class="fallback-nav"><a href="index.html">Private.Money</a> · <a href="get-funded.html">Get Funded</a> · <a href="invest.html">Invest</a> · <a href="calculators.html">Calculators</a> · <a href="learn.html">Learn</a> · <a href="contact.html">Contact</a></nav></header>
+<main id="main">
+
+<section class="hero hero-sm">
+  <div class="container hero-grid">
+    <div>
+      <div class="crumbs"><a href="index.html">Home</a> / Calculators</div>
+      <span class="eyebrow">Free tools</span>
+      <h1>Private lending calculators</h1>
+      <p class="lead">Underwrite like a lender before you sign anything. Six live calculators, no signup required. Results update as you type.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:36px">
+  <div class="container" data-tabs>
+    <div class="tabs" role="tablist" aria-label="Calculators">
+      <button class="tab" role="tab" aria-controls="flip">Fix &amp; Flip Profit</button>
+      <button class="tab" role="tab" aria-controls="cost">Hard Money Cost</button>
+      <button class="tab" role="tab" aria-controls="dscr">DSCR</button>
+      <button class="tab" role="tab" aria-controls="brrrr">BRRRR</button>
+      <button class="tab" role="tab" aria-controls="mao">70% Rule / Max Offer</button>
+      <button class="tab" role="tab" aria-controls="yield">Note Yield (Lenders)</button>
+    </div>
+
+    <!-- FLIP -->
+    <div class="panel" id="flip" role="tabpanel">
+      <div class="calc">
+        <form class="form-card" data-calc="flip" aria-label="Fix and flip calculator">
+          <h2 style="font-size:1.3rem">Fix &amp; flip profit</h2>
+          <div class="row3">
+            <div class="field"><label for="fl1">Purchase price</label><div class="money"><input id="fl1" name="price" type="number" value="250000" step="1000"></div></div>
+            <div class="field"><label for="fl2">Rehab budget</label><div class="money"><input id="fl2" name="rehab" type="number" value="60000" step="1000"></div></div>
+            <div class="field"><label for="fl3">ARV</label><div class="money"><input id="fl3" name="arv" type="number" value="420000" step="1000"></div></div>
+          </div>
+          <div class="row3">
+            <div class="field"><label for="fl4">% of purchase financed</label><div class="pct"><input id="fl4" name="ltc" type="number" value="90" step="0.5"></div></div>
+            <div class="field"><label for="fl5">% of rehab financed</label><div class="pct"><input id="fl5" name="rehabfin" type="number" value="100" step="1"></div></div>
+            <div class="field"><label for="fl6">Interest rate</label><div class="pct"><input id="fl6" name="rate" type="number" value="10.5" step="0.125"></div></div>
+          </div>
+          <div class="row3">
+            <div class="field"><label for="fl7">Points</label><input id="fl7" name="points" type="number" value="2" step="0.25"></div>
+            <div class="field"><label for="fl8">Months held</label><input id="fl8" name="months" type="number" value="7" min="1" step="1"></div>
+            <div class="field"><label for="fl9">Holding cost / month</label><div class="money"><input id="fl9" name="hold" type="number" value="650" step="50"></div><span class="hint">Taxes, insurance, utilities</span></div>
+          </div>
+          <div class="row2">
+            <div class="field"><label for="fl10">Buying closing costs</label><div class="pct"><input id="fl10" name="buyclose" type="number" value="2" step="0.25"></div></div>
+            <div class="field"><label for="fl11">Selling costs (agent + closing)</label><div class="pct"><input id="fl11" name="sellcost" type="number" value="7" step="0.25"></div></div>
+          </div>
+          <button class="btn btn-ghost btn-sm" type="reset" data-reset>Reset defaults</button>
+        </form>
+        <div class="results">
+          <div class="headline"><small>Estimated net profit</small><strong data-headline>—</strong></div>
+          <ul class="kv">
+            <li><span>Loan amount</span><b data-o="loan"></b></li>
+            <li><span>Interest (interest-only)</span><b data-o="interest"></b></li>
+            <li><span>Points</span><b data-o="points"></b></li>
+            <li><span>Buying costs</span><b data-o="buy"></b></li>
+            <li><span>Holding costs</span><b data-o="hold"></b></li>
+            <li><span>Selling costs</span><b data-o="sell"></b></li>
+            <li><span>Total project cost</span><b data-o="total"></b></li>
+            <li><span>Your cash invested</span><b data-o="cash"></b></li>
+            <li><span>ROI on cash</span><b data-o="roi"></b></li>
+            <li><span>Annualized ROI</span><b data-o="ann"></b></li>
+            <li><span>Profit margin (of ARV)</span><b data-o="margin"></b></li>
+            <li><span>70% rule max price</span><b data-o="mao"></b></li>
+          </ul>
+          <p class="verdict"></p>
+          <p class="small muted" data-o="rule"></p>
+          <a class="btn btn-primary btn-block" href="get-funded.html?purpose=flip">Get matched for this flip →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- COST -->
+    <div class="panel" id="cost" role="tabpanel">
+      <div class="calc">
+        <form class="form-card" data-calc="cost" aria-label="Hard money loan cost calculator">
+          <h2 style="font-size:1.3rem">Hard money loan cost</h2>
+          <div class="row2">
+            <div class="field"><label for="c1">Loan amount</label><div class="money"><input id="c1" name="loan" type="number" value="285000" step="1000"></div></div>
+            <div class="field"><label for="c2">Interest rate</label><div class="pct"><input id="c2" name="rate" type="number" value="10.5" step="0.125"></div></div>
+          </div>
+          <div class="row2">
+            <div class="field"><label for="c3">Points</label><input id="c3" name="points" type="number" value="2" step="0.25"></div>
+            <div class="field"><label for="c4">Term used (months)</label><input id="c4" name="months" type="number" value="9" min="1"></div>
+          </div>
+          <div class="row3">
+            <div class="field"><label for="c5">Lender fees (processing, UW, doc)</label><div class="money"><input id="c5" name="fees" type="number" value="1995" step="50"></div></div>
+            <div class="field"><label for="c6">Number of draws</label><input id="c6" name="draws" type="number" value="4" min="0"></div>
+            <div class="field"><label for="c7">Fee per draw</label><div class="money"><input id="c7" name="drawfee" type="number" value="250" step="25"></div></div>
+          </div>
+          <button class="btn btn-ghost btn-sm" type="reset" data-reset>Reset defaults</button>
+        </form>
+        <div class="results">
+          <div class="headline"><small>Total cost of capital</small><strong data-headline>—</strong></div>
+          <ul class="kv">
+            <li><span>Monthly interest-only payment</span><b data-o="monthly"></b></li>
+            <li><span>Total interest</span><b data-o="interest"></b></li>
+            <li><span>Points</span><b data-o="points"></b></li>
+            <li><span>Fees + draw fees</span><b data-o="fees"></b></li>
+            <li><span>Cost as % of loan</span><b data-o="pct"></b></li>
+            <li><span>Effective annual cost</span><b data-o="eff"></b></li>
+          </ul>
+          <p class="verdict"></p>
+          <a class="btn btn-primary btn-block" href="get-funded.html">Compare lender pricing →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- DSCR -->
+    <div class="panel" id="dscr" role="tabpanel">
+      <div class="calc">
+        <form class="form-card" data-calc="dscr" aria-label="DSCR calculator">
+          <h2 style="font-size:1.3rem">DSCR ratio &amp; max loan</h2>
+          <div class="row2">
+            <div class="field"><label for="d1">Monthly rent</label><div class="money"><input id="d1" name="rent" type="number" value="2600" step="25"></div></div>
+            <div class="field"><label for="d2">Loan amount</label><div class="money"><input id="d2" name="loan" type="number" value="240000" step="1000"></div></div>
+          </div>
+          <div class="row2">
+            <div class="field"><label for="d3">Interest rate</label><div class="pct"><input id="d3" name="rate" type="number" value="7.25" step="0.125"></div></div>
+            <div class="field"><label for="d4">Interest-only?</label><select id="d4" name="io"><option value="no">No, 30-yr amortizing</option><option value="yes">Yes, interest-only</option></select></div>
+          </div>
+          <div class="row3">
+            <div class="field"><label for="d5">Property taxes / year</label><div class="money"><input id="d5" name="taxes" type="number" value="3600" step="100"></div></div>
+            <div class="field"><label for="d6">Insurance / year</label><div class="money"><input id="d6" name="ins" type="number" value="1500" step="50"></div></div>
+            <div class="field"><label for="d7">HOA / month</label><div class="money"><input id="d7" name="hoa" type="number" value="0" step="10"></div></div>
+          </div>
+          <button class="btn btn-ghost btn-sm" type="reset" data-reset>Reset defaults</button>
+        </form>
+        <div class="results">
+          <div class="headline"><small>DSCR (rent ÷ PITIA)</small><strong data-headline>—</strong></div>
+          <ul class="kv">
+            <li><span>Principal &amp; interest</span><b data-o="pi"></b></li>
+            <li><span>Taxes, insurance, HOA</span><b data-o="tia"></b></li>
+            <li><span>Total PITIA</span><b data-o="pitia"></b></li>
+            <li><span>Rent minus PITIA</span><b data-o="flow"></b></li>
+            <li><span>Max loan at 1.00x</span><b data-o="max100"></b></li>
+            <li><span>Max loan at 1.25x</span><b data-o="max125"></b></li>
+          </ul>
+          <p class="verdict"></p>
+          <a class="btn btn-primary btn-block" href="get-funded.html?purpose=dscr">Get DSCR lender matches →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- BRRRR -->
+    <div class="panel" id="brrrr" role="tabpanel">
+      <div class="calc">
+        <form class="form-card" data-calc="brrrr" aria-label="BRRRR calculator">
+          <h2 style="font-size:1.3rem">BRRRR: cash left in the deal</h2>
+          <div class="row2">
+            <div class="field"><label for="b1">Purchase price</label><div class="money"><input id="b1" name="price" type="number" value="160000" step="1000"></div></div>
+            <div class="field"><label for="b2">Rehab</label><div class="money"><input id="b2" name="rehab" type="number" value="45000" step="1000"></div></div>
+          </div>
+          <div class="row2">
+            <div class="field"><label for="b3">Buying closing costs</label><div class="money"><input id="b3" name="closing" type="number" value="4500" step="100"></div></div>
+            <div class="field"><label for="b4">Holding + short-term loan costs</label><div class="money"><input id="b4" name="holdcost" type="number" value="12000" step="100"></div><span class="hint">Interest, points, utilities during rehab</span></div>
+          </div>
+          <div class="row3">
+            <div class="field"><label for="b5">ARV</label><div class="money"><input id="b5" name="arv" type="number" value="285000" step="1000"></div></div>
+            <div class="field"><label for="b6">Refi LTV</label><div class="pct"><input id="b6" name="ltv" type="number" value="75" step="1"></div></div>
+            <div class="field"><label for="b7">Refi rate</label><div class="pct"><input id="b7" name="refirate" type="number" value="7.25" step="0.125"></div></div>
+          </div>
+          <div class="row2">
+            <div class="field"><label for="b8">Refi points + closing</label><div class="pct"><input id="b8" name="refipts" type="number" value="3" step="0.25"></div></div>
+            <div class="field"><label for="b9">Monthly rent</label><div class="money"><input id="b9" name="rent" type="number" value="2200" step="25"></div></div>
+          </div>
+          <div class="row2">
+            <div class="field"><label for="b10">Vacancy, mgmt, repairs, capex</label><div class="pct"><input id="b10" name="opex" type="number" value="25" step="1"></div></div>
+            <div class="field"><label for="b11">Taxes + insurance / month</label><div class="money"><input id="b11" name="taxins" type="number" value="380" step="10"></div></div>
+          </div>
+          <button class="btn btn-ghost btn-sm" type="reset" data-reset>Reset defaults</button>
+        </form>
+        <div class="results">
+          <div class="headline"><small>Cash left in the deal</small><strong data-headline>—</strong></div>
+          <ul class="kv">
+            <li><span>Total all-in cost</span><b data-o="totalin"></b></li>
+            <li><span>Refinance loan</span><b data-o="refi"></b></li>
+            <li><span>Refi costs</span><b data-o="refi_cost"></b></li>
+            <li><span>New P&amp;I payment</span><b data-o="pi"></b></li>
+            <li><span>Monthly cash flow</span><b data-o="flow"></b></li>
+            <li><span>Cash-on-cash return</span><b data-o="coc"></b></li>
+            <li><span>Equity after refi</span><b data-o="equity"></b></li>
+            <li><span>DSCR on refi</span><b data-o="dscr"></b></li>
+          </ul>
+          <p class="verdict"></p>
+          <a class="btn btn-primary btn-block" href="guides/brrrr-financing.html">How to finance a BRRRR →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- MAO -->
+    <div class="panel" id="mao" role="tabpanel">
+      <div class="calc">
+        <form class="form-card" data-calc="mao" aria-label="Maximum allowable offer calculator">
+          <h2 style="font-size:1.3rem">70% rule: maximum allowable offer</h2>
+          <div class="row2">
+            <div class="field"><label for="m1">After-repair value (ARV)</label><div class="money"><input id="m1" name="arv" type="number" value="420000" step="1000"></div></div>
+            <div class="field"><label for="m2">Repair estimate</label><div class="money"><input id="m2" name="repairs" type="number" value="60000" step="1000"></div></div>
+          </div>
+          <div class="row3">
+            <div class="field"><label for="m3">Rule %</label><div class="pct"><input id="m3" name="pct" type="number" value="70" step="1" min="40" max="95"></div></div>
+            <div class="field"><label for="m4">Wholesale / assignment fee</label><div class="money"><input id="m4" name="fee" type="number" value="0" step="500"></div></div>
+            <div class="field"><label for="m5">Extra buying costs</label><div class="money"><input id="m5" name="close" type="number" value="0" step="500"></div></div>
+          </div>
+          <button class="btn btn-ghost btn-sm" type="reset" data-reset>Reset defaults</button>
+        </form>
+        <div class="results">
+          <div class="headline"><small>Maximum allowable offer</small><strong data-headline>—</strong></div>
+          <ul class="kv">
+            <li><span>ARV × rule %</span><b data-o="arvpct"></b></li>
+            <li><span>Minus repairs, fees, costs</span><b data-o="deduct"></b></li>
+            <li><span>Spread kept for profit &amp; costs</span><b data-o="spread"></b></li>
+          </ul>
+          <p class="verdict"></p>
+          <a class="btn btn-primary btn-block" href="get-funded.html?purpose=flip">Finance this deal →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- YIELD -->
+    <div class="panel" id="yield" role="tabpanel">
+      <div class="calc">
+        <form class="form-card" data-calc="yield" aria-label="Private note yield calculator">
+          <h2 style="font-size:1.3rem">Private note: risk-adjusted net yield</h2>
+          <p class="small muted">For lenders and note investors. Most platforms advertise the coupon; this calculator shows what you actually keep.</p>
+          <div class="row2">
+            <div class="field"><label for="y1">Amount lent</label><div class="money"><input id="y1" name="amount" type="number" value="100000" step="1000"></div></div>
+            <div class="field"><label for="y2">Interest rate (coupon)</label><div class="pct"><input id="y2" name="rate" type="number" value="11" step="0.25"></div></div>
+          </div>
+          <div class="row3">
+            <div class="field"><label for="y3">Points you receive</label><input id="y3" name="points" type="number" value="1" step="0.25"></div>
+            <div class="field"><label for="y4">Term (months)</label><input id="y4" name="months" type="number" value="12" min="1"></div>
+            <div class="field"><label for="y5">Servicing fee / yr</label><div class="pct"><input id="y5" name="serv" type="number" value="0.5" step="0.05"></div></div>
+          </div>
+          <div class="row2">
+            <div class="field"><label for="y6">Expected loss / yr</label><div class="pct"><input id="y6" name="loss" type="number" value="1" step="0.25"></div><span class="hint">Default rate × loss severity</span></div>
+            <div class="field"><label for="y7">Safe benchmark yield</label><div class="pct"><input id="y7" name="bench" type="number" value="4" step="0.25"></div><span class="hint">e.g. Treasury bills / savings</span></div>
+          </div>
+          <button class="btn btn-ghost btn-sm" type="reset" data-reset>Reset defaults</button>
+        </form>
+        <div class="results">
+          <div class="headline"><small>Net annual yield (risk-adjusted)</small><strong data-headline>—</strong></div>
+          <ul class="kv">
+            <li><span>Monthly interest income</span><b data-o="monthly"></b></li>
+            <li><span>Total interest</span><b data-o="interest"></b></li>
+            <li><span>Points earned</span><b data-o="points"></b></li>
+            <li><span>Servicing fees</span><b data-o="serv"></b></li>
+            <li><span>Expected losses</span><b data-o="loss"></b></li>
+            <li><span>Net income</span><b data-o="net"></b></li>
+            <li><span>Safe benchmark income</span><b data-o="bench"></b></li>
+            <li><span>Risk premium earned</span><b data-o="edge"></b></li>
+          </ul>
+          <p class="verdict"></p>
+          <a class="btn btn-primary btn-block" href="invest.html#investor-list">Join the investor list →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container narrow">
+    <h2>How to use these calculators</h2>
+    <p><b>Fix &amp; flip profit</b> models a typical interest-only hard money loan that funds part of the purchase and the rehab through draws. To stay conservative, it charges interest on the full loan for the whole hold; in reality, interest on rehab draws starts when each draw is funded, so your actual interest may be slightly lower.</p>
+    <p><b>Hard money cost</b> shows why short holds are expensive: points and fees are paid once, so they make up a bigger share of your annualized cost the faster you repay.</p>
+    <p><b>DSCR</b> uses the lender convention: gross monthly rent divided by PITIA (principal, interest, taxes, insurance and HOA). Most lenders want 1.00x or higher; 1.25x or higher typically earns better pricing.</p>
+    <p><b>BRRRR</b> calculates how much of your own cash stays in the property after you refinance at the after-repair value. The goal is to recycle as much as possible into the next deal while keeping positive cash flow.</p>
+    <p><b>70% rule</b> is a quick screen, not a substitute for a full analysis. Use the fix &amp; flip calculator to confirm.</p>
+    <p><b>Note yield</b> is for lenders: it subtracts servicing and an expected-loss allowance from the coupon and points, then compares the result with a risk-free benchmark so you can judge whether the risk premium is worth it.</p>
+    <div class="callout warn small">Calculators are for education only and don't account for every cost, tax or market change. They are not a quote, offer or financial advice. Verify all figures with your lender, agent, attorney and tax advisor.</div>
+  </div>
+</section>
+
+</main>
+<footer id="site-footer"><p class="container"><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a> · <a href="disclaimer.html">Disclaimer</a></p></footer>
+<script src="assets/js/site.js" defer></script>
+<script src="assets/js/calculators.js" defer></script>
+</body>
+</html>
